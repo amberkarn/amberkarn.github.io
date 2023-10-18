@@ -1,0 +1,70 @@
+.flex-container {
+    display: flex;
+    margin: 5px;
+    padding: 50px;
+    font-size: 10px;
+    align-items: center;
+    position: relative;
+  }
+
+  .imgStyle {
+    width:860px;
+    height:670px;
+  }
+
+.imgOne {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    font-family: 'Petrona', serif;
+    color: aliceblue;
+    display: flex;
+  }
+
+  .imgTwo {
+    position:absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    font-family: 'Petrona', serif;
+    color: aliceblue;
+  }
+
+  .imgThree {
+    position:absolute;
+    top: 50%;
+    left: 150%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    font-family: 'Petrona', serif;
+    color: aliceblue;
+  }
+
+  .imgFour {
+    position:absolute;
+    top: 50%;
+    left: 205%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    font-family: 'Petrona', serif;
+    color: aliceblue;
+  }
+
+  .imgFive {
+    position:absolute;
+    top: 50%;
+    left: 270%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    font-family: 'Petrona', serif;
+    color: aliceblue;
+  }
+
+  @media screen{
+    body {
+      background-color: black;
+    }
+  }

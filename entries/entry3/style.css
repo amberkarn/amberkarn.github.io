@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+}
+.scrolling {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Martian Mono', monospace, serif;
+}
+
+.scrolling h1{
+    font-size: 10em;
+    color: whitesmoke;
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    margin: 0;
+    line-height: 200px;
+    text-align: left;
+
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+    -moz-animation: scrolling 15s linear infinite;
+    -webkit-animation: scrolling 15s linear infinite;
+    animation: scrolling 15s linear infinite;
+}
+
+@-moz-keyframes scrolling{
+    0% {-moz-transform: translateX(100%); }
+    100% {-moz-transform: translateX(-100%); }
+}
+    
+@-webkit-keyframes scrolling {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes scrolling {
+    0% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    100% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+.marquee {
+    width: 1300px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marqueeContent {
+    display: flex;
+    list-style: none;
+    animation: scrolling 15s linear infinite;
+}
+
+.marqueeItem {
+    height: 100px;
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.marqueeImage {
+    height: 100%;
+    width: 100%
+}
+
+@keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translatex(-1000px); }
+  }
+
