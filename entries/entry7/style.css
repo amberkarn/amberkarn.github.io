@@ -1,0 +1,109 @@
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+div {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: width 3s, height 3s;
+  }
+
+div.imgOne {
+    width:50px;
+   height:80px;
+   background-image:url(imgs/Img1.png);
+}
+
+div.imgOne:hover {
+    width: 500px;
+    height: 800px;
+  }
+
+  div.imgTwo {
+    width:50px;
+   height:80px;
+   background-image:url(imgs/Img2.png);
+}
+
+div.imgTwo:hover {
+    width: 600px;
+    height: 750px;
+  }
+
+div.imgThree {
+    width:140px;
+   height:70px;
+   background-image:url(imgs/Img3.png);
+}
+
+div.imgThree:hover {
+    width: 1400px;
+    height: 700px;
+  }
+
+  div.imgFour {
+    width:60px;
+   height:80px;
+   background-image:url(imgs/Img4.png);
+}
+
+div.imgFour:hover {
+    width: 600px;
+    height: 800px;
+  }
+
+  div.imgFive {
+    width:60px;
+   height:80px;
+   background-image:url(imgs/Img5.png);
+}
+
+div.imgFive:hover {
+    width: 600px;
+    height: 800px;
+  }
+
+  div.imgSix {
+    width:50px;
+   height:80px;
+   background-image:url(imgs/Img6.png);
+}
+
+div.imgSix:hover {
+    width: 500px;
+    height: 800px;
+  }
+
+  div.imgSeven {
+    width:110px;
+   height:80px;
+   background-image:url(imgs/Img7.png);
+}
+
+div.imgSeven:hover {
+    width: 1100px;
+    height: 800px;
+  }
