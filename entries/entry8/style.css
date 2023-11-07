@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .section1 {
+    height: 600px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    max-width: 35em;
+  }
+  
+  .section2 {
+    height: 600px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    max-width: 350em;
+  }
+  
+  .section3 {
+    height: 600px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    max-width: 35em;
+  }
+
+  .section4 {
+    height: 600px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    max-width: 35em;
+  }
+
+  .section5 {
+    height: 600px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    max-width: 35em;
+  }
+
+ 
