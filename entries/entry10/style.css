@@ -1,0 +1,43 @@
+body {
+    background-image: url(imgs/cover1.png);
+  }
+  
+  section {
+    display:  flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items:  center;
+    height:  100vh;
+  }
+  
+  .button {
+    padding: 20px 50px;
+    border-radius: 30px;
+    background-color:  white;
+    color:  black;
+    font-size:  60px;
+    font-size: 20px;
+    font-family: 'Courier Prime', monospace;
+    text-align:  center;
+    text-align:  center;
+    transition:  all 100ms;
+  }
+  
+  .button:hover {
+    background-color: rgb(174, 174, 174);
+    cursor:  pointer;
+  }
+  
+  .buttonOn {
+    background-color:  black;
+    color:  white;
+  }
+  
+  .light {
+    background-image: url(imgs/cover8.png);
+  }
+
+  @media only screen and (max-width: 768px) 
+    [class*="col-"] {
+      width: 100%;
+    }
