@@ -1,5 +1,38 @@
+@media screen and (max-width: 600px) {
   body {
+    background-color: green;
+  }
+
+
+  .section1 {
+    height: 100%;
     background-color: black;
+    display: flex;
+    align-content: center;
+    max-width: 35em;
+  }
+
+}
+
+
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: red;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+body {
+    background-color: white;
   }
 
   * {
@@ -11,13 +44,7 @@
     padding: 10px;
     float: left;
   display: block;
-  }
-
-  @media screen and (max-width: 600px) {
-    .column {
-      float: none;
-      width: 100%;
-    }
+  width: 100%;
   }
 
 html {
@@ -25,43 +52,36 @@ html {
   }
 
   .section1 {
-    height: 600px;
     background-color: black;
     display: flex;
     align-content: center;
-    max-width: 35em;
+    max-width: 100%;
   }
   
   .section2 {
-    height: 600px;
     background-color: black;
     display: flex;
     align-content: center;
-    max-width: 350em;
+    max-width: 100%;
   }
   
   .section3 {
-    height: 600px;
     background-color: black;
     display: flex;
     align-content: center;
-    max-width: 35em;
+    max-width: 100%;
   }
 
   .section4 {
-    height: 600px;
     background-color: black;
     display: flex;
     align-content: center;
-    max-width: 35em;
+    max-width: 100%;
   }
 
   .section5 {
-    height: 600px;
     background-color: black;
     display: flex;
     align-content: center;
-    max-width: 35em;
+    max-width: 100%;
   }
-
-  

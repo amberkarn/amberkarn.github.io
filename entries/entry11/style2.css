@@ -1,0 +1,107 @@
+/* 
+body {
+    background-color:  black;
+    color:  white;
+    font-family: arial;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-weight:  normal;
+  }
+  
+  .button {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 40px;
+    color: black;
+    font-size: 36px;
+  }
+  
+  .button:hover {
+    opacity: .8;
+    cursor: pointer;
+    transition: 90ms ease;
+  } */
+
+body{
+    background-color: rgb(249, 243, 229);
+}
+
+  h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:8vw;
+    padding: 0%;
+    margin: top;
+    text-align: left;
+    color: black;
+  }
+
+  h2{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 1.5vw;
+    text-align: left;
+    color: black;
+  }
+
+  img{
+    width: 190px;
+    height: 140px;
+  }
+
+  /* scrolling {
+    height:5vw;
+    overflow: hidden;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif
+} */
+
+/* .scrolling h1{
+    font-size: 2vw;
+    font-family: 'Shippori Mincho B1', serif;
+    color: black;
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    margin: 0;
+    line-height: 200px;
+    text-align: center;
+
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+    -moz-animation: scrolling 20s linear infinite;
+    -webkit-animation: scrolling 20s linear infinite;
+    animation: scrolling 20s linear infinite;
+}
+
+/* @-moz-keyframes scrolling{
+    0% {-moz-transform: translateX(100%); }
+    100% {-moz-transform: translateX(-100%); }
+} */
+/*     
+@-webkit-keyframes scrolling {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes scrolling {
+    0% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    100% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+} */ 
