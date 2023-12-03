@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(249, 243, 229);
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:5vw;
+    text-align: left;
+    color: black;
+  }
+
+  h2{
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 1.5vw;
+    text-align: left;
+    color: black;
+  }
+
+  a:link, a:visited {
+    /* background-color: #f44336; */
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  /* .grid > div {
+    height: 100px;
+    min-width: 10px;
+  } */
+
+  a:hover, a:active {
+    background-color: red;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* padding: 10px; */
+    /* grid-template-rows: 80px 200px; */
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    /* margin: 0 0 1rem 0; */
+  }
+
+
+.container {
+    display: grid;
+    grid-auto-columns: 24%;
+    grid-auto-flow: column;
+    /* grid-gap: 16px; */
+    overflow-x: auto;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}

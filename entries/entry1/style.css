@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+#blink_text{	
+    animation-name:blink;
+    animation-duration:8s;
+    animation-timing-function:ease-in;
+    animation-timing-function:ease-out;
+    animation-iteration-count:Infinite;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12vw;
+    animation-iteration-count: infinite;
+    }
+  
+  @keyframes blink{
+    0%{color:red;}
+    33%{color:black;}
+    48%{color: orange;}
+    64%{color:black;}
+    80%{color:green;}
+    100%{color:black;}
+  }
