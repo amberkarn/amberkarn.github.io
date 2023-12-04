@@ -107,3 +107,11 @@ div.imgSeven:hover {
     width: 1100px;
     height: 800px;
   }
+
+  a:link, a:visited {
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    /* display: inline-block; */
+  }

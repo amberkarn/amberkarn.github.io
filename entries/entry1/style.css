@@ -21,3 +21,20 @@ body {
     80%{color:green;}
     100%{color:black;}
   }
+
+  /* .container img {
+    width: 100%;
+    height: auto;
+} */
+
+/* a:hover, a:active {
+  background-color: red;
+}*/
+
+a:link, a:visited {
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+} 

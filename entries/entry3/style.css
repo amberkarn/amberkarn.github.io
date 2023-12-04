@@ -105,3 +105,11 @@ body {
         animation: scrolling 15s linear infinite;
     }
   }
+
+  a:link, a:visited {
+    color: white;
+    padding: 15px;
+    text-align: left;
+    text-decoration: none;
+    /* display: inline-block; */
+  }
