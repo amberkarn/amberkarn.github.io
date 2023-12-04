@@ -1,34 +1,13 @@
 body {
-    background-color: black;
-  }
+      background-size: cover;
+      background-image: url(imgs/Frame2.png);
+      background-repeat: no-repeat;
+    }
+
   
   @media screen and (min-height: 480px) {
     body {
         background-size: cover;
-        background-image: url(imgs/Img2.JPG)
-    }
-  }
-
-  .flex-container {
-    display: flex;
-    margin: 5px;
-    padding: 20px;
-    font-size: 75px;
-    align-items: left;
-    position: relative;
-    flex-direction: column;
-    font-family: 'Darker Grotesque', sans-serif;
-  }
-
-  div.example {
-    font-family: 'Darker Grotesque', sans-serif;
-    font-size: 25px;
-    color: aliceblue;
-    box-align: left
-  }
-  
-  @media screen and (min-height: 480px) {
-    div.example {
-      display:none;
+        background-image: url(imgs/Frame.png)
     }
   }

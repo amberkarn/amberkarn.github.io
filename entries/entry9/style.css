@@ -7,7 +7,7 @@ body {
     height: 310px;
     background-color: black;
     animation-name: example;
-    animation-duration: 35s;
+    animation-duration: 50s;
     animation-iteration-count: infinite;
   }
   
@@ -36,7 +36,7 @@ body {
 
   div.example {
     font-family: 'Darker Grotesque', sans-serif;
-    font-size: 60px;
+    font-size: 35px;
     color: aliceblue;
     text-align: center;
   }

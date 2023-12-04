@@ -17,7 +17,7 @@ body {
     color:  black;
     font-size:  60px;
     font-size: 20px;
-    font-family: 'Courier Prime', monospace;
+    font-family: Arial, Helvetica, sans-serif;
     text-align:  center;
     text-align:  center;
     transition:  all 100ms;
@@ -36,8 +36,3 @@ body {
   .light {
     background-image: url(imgs/cover8.png);
   }
-
-  @media only screen and (max-width: 768px) 
-    [class*="col-"] {
-      width: 100%;
-    }
