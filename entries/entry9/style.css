@@ -1,46 +1,11 @@
-body {
-    background-color: black;
-  }
+ body {
+  background-image: url(imgs/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  background-color: black;
+  }  
   
-  div {
-    width: 480px;
-    height: 310px;
-    background-color: black;
-    animation-name: example;
-    animation-duration: 50s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes example {
-    0%   {background-color:rgb(68,89,66); left:0px; top:0px;}
-    25%  {background-color:rgb(121, 148, 170); left:200px; top:0px;}
-    50%  {background-color:#7d6b52; left:200px; top:200px;}
-    75%  {background-color:#97adac; left:0px; top:200px;}
-    100% {background-color:#184737; left:0px; top:0px;}
-  }
-
-  @media screen and (min-height: 310px){
-    body {
-        background-size:cover;
-        position: absolute ;
-        background-repeat: no-repeat;
-        background-image: url(imgs/img1.jpeg)
-    }
-  }
-
-  @media screen and (min-height: 310px) {
-    div.example {
-      display:none;
-    }
-  }
-
-  div.example {
-    font-family: 'Darker Grotesque', sans-serif;
-    font-size: 35px;
-    color: aliceblue;
-    text-align: center;
-  }
-
   a:link, a:visited {
     color: white;
     padding: 10px;
@@ -48,5 +13,12 @@ body {
     text-decoration: none;
     /* display: inline-block; */
   }
-  
- 
+
+  @media screen and (max-height: 500px) and (max-width: 500px){
+    body {
+        background-size:cover;
+        position: absolute ;
+        background-repeat: no-repeat;
+        background-image: url(imgs/frame2.png)
+    }
+  }
